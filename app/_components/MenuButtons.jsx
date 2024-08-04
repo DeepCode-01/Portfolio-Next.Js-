@@ -49,7 +49,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         src:
           platform === PLATFORMS.ANDROID
             ? "/windows/linkedin.png"
-            :` /${platform.toLowerCase()}/linkedin.png`,
+            :`/${platform.toLowerCase()}/linkedin.png`,
         width: 70,
         height: 70,
         alt: "LinkedIn Logo",
