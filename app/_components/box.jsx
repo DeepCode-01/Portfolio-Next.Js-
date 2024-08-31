@@ -36,7 +36,7 @@ const ProjectDialog = ({
       <DialogTrigger asChild>{button}</DialogTrigger>
       <DialogContent>
         {isLoading ? (
-          <div className="w-full h-[500px] flex justify-center items-center">
+          <div className="w-full h-[450px] flex justify-center items-center">
             <PopLoader platform={platform} />
           </div>
         ) : (
