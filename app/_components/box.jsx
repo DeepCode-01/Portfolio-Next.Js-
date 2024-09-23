@@ -56,12 +56,6 @@ const ProjectDialog = ({
                   <TabsTrigger className="text-white w-full" value="project">
                     Project
                   </TabsTrigger>
-                  <TabsTrigger
-                    className="text-white w-full"
-                    value="freelancing"
-                  >
-                    Freelancing
-                  </TabsTrigger>
                 </TabsList>
                 <div className="w-full h-[450px] xl:h-[500px] overflow-hidden overflow-y-auto  custom-scrollbar">
                   <TabsContent value="project">

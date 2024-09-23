@@ -87,19 +87,19 @@ export function getCurrentDate() {
   }
   
   export const handleCall = () => {
-    window.location.href = "tel:+918882304322"
+    window.location.href = "tel:+918305483524"
   }
   
   export const handleEmail = () => {
-    window.location.href = "mailto:codeshorts007@gmail.com?subject=Hi"
+    window.location.href = "mailto:deepaliverma064@gamil.com?subject=Hi"
   }
   
   export const handleShare = () => {
     if (navigator.share) {
       navigator
         .share({
-          title: "Contact Ritesh",
-          text: "Check out Ritesh's contact information",
+          title: "Contact Deepali",
+          text: "Check out Deepali's contact information",
           url: window.location.href
         })
         .catch(console.error)

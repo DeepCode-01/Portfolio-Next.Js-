@@ -1,9 +1,9 @@
-import React, { useState } from "react"
+import React, { useState } from "react";
 import {
   Popover,
   PopoverContent,
-  PopoverTrigger
-} from "@/components/ui/popover"
+  PopoverTrigger,
+} from "@/components/ui/popover";
 import {
   ChevronUp,
   Briefcase,
@@ -11,12 +11,12 @@ import {
   GraduationCap,
   Mail,
   Phone,
-  MapPin
-} from "lucide-react"
-import Image from "next/image"
+  MapPin,
+} from "lucide-react";
+import Image from "next/image";
 
 const MyInfo = ({ button }) => {
-  const [activeTab, setActiveTab] = useState("experience")
+  const [activeTab, setActiveTab] = useState("experience");
 
   const TabButton = ({ id, icon: Icon, label }) => (
     <button
@@ -30,13 +30,13 @@ const MyInfo = ({ button }) => {
       <Icon size={12} className="mr-1 sm:mr-2" />
       {label}
     </button>
-  )
+  );
 
   const TabContent = ({ id, content }) => (
     <div className={`mt-2 sm:mt-4 ${activeTab === id ? "block" : "hidden"}`}>
       <p className="text-xs sm:text-sm tracking-wide">{content}</p>
     </div>
-  )
+  );
 
   return (
     <Popover>
@@ -52,9 +52,9 @@ const MyInfo = ({ button }) => {
               className="rounded-full border-2 border-white mr-3 sm:mr-6"
             />
             <div>
-              <h2 className="text-lg sm:text-2xl font-bold">Ritesh</h2>
+              <h2 className="text-lg sm:text-2xl font-bold">Deepali Verma</h2>
               <p className="text-sm sm:text-lg text-gray-300">
-                Full Stack Developer
+                FrontEnd Developer
               </p>
             </div>
           </div>
@@ -62,15 +62,15 @@ const MyInfo = ({ button }) => {
           <div className="space-y-1 sm:space-y-2 mb-4 sm:mb-6">
             <p className="flex items-center text-xs sm:text-sm">
               <Mail size={12} className="mr-1 sm:mr-2" />
-              rk0001945@gmail.com
+              deepaliverma064@gmail.com
             </p>
             <p className="flex items-center text-xs sm:text-sm">
               <Phone size={12} className="mr-1 sm:mr-2" />
-              +91 8882304322
+              +91 8305483524
             </p>
             <p className="flex items-center text-xs sm:text-sm">
               <MapPin size={12} className="mr-1 sm:mr-2" />
-              Rajapuri, Uttam Nagar, New Delhi
+              Jabalpur, Madhya Pradesh, India
             </p>
           </div>
 
@@ -82,15 +82,16 @@ const MyInfo = ({ button }) => {
 
           <TabContent
             id="experience"
-            content="1.5+ years in freelancing Full Stack development, including internship as Tech Lead & Full Stack Developer at MnA Studio"
+            content="Frontend Developer skilled in HTML, CSS, JavaScript, React, and Next.js. Experienced in
+ creating responsive and dynamic web applications through internships at MnA Studios and Ravian AI."
           />
           <TabContent
             id="skills"
-            content="JavaScript, TypeScript, React.js, Redux Toolkit, Next.js, Node.js, Express.js, Prisma ORM, jQuery, MongoDB, Firebase, Git, GitHub, Docker, WordPress, Shopify, AWS, Redis, GraphQL"
+            content="JavaScript, React.js, Next.js, Node.js, Express.js, MongoDB,  GitHub,"
           />
           <TabContent
             id="education"
-            content="Bachelor's Degree in Commerce, Delhi University SOL (2021 - 2024)"
+            content="Bachelor's Degree in Science, Govt. Science College (2019 - 2022)"
           />
         </div>
         <div className="p-2 sm:p-4 bg-black/50 flex justify-between items-center">
@@ -99,7 +100,7 @@ const MyInfo = ({ button }) => {
         </div>
       </PopoverContent>
     </Popover>
-  )
-}
+  );
+};
 
-export default MyInfo
+export default MyInfo;

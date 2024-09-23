@@ -30,7 +30,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         height: 70,
         alt: "PDF Logo",
         label: "Resume",
-        href: "/Ritesh.pdf",
+        href: "https://drive.google.com/file/d/1JeVe7DHFeqUAYPpGHseRSp02jiYK56NG/view?usp=sharing",
         className: "rounded-xl"
       },
       github: {
@@ -42,7 +42,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         height: 70,
         alt: "GitHub Logo",
         label: "GitHub",
-        href: "https://github.com/riteshk-007",
+        href: "https://github.com/DeepCode-01",
         className: "rounded-xl"
       },
       linkedin: {
@@ -54,7 +54,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         height: 70,
         alt: "LinkedIn Logo",
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/ritesh-kumar-8064b626b/",
+        href: "https://www.linkedin.com/in/deepali-verma-93b786265/",
         className: "rounded-xl"
       },
       x: {
@@ -63,7 +63,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         height: 55,
         alt: "X Logo",
         label: "X",
-        href: "https://twitter.com/Riteshk_007",
+        href: "https://x.com/DeepV_01",
         className: "rounded-xl bg-white overflow-hidden"
       },
       coffee: {

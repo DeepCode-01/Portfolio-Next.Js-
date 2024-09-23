@@ -25,8 +25,8 @@ const Contact = ({ button }) => {
             alt="avatar"
             className="rounded-full border-2 border-gray-700 mb-4"
           />
-          <h3 className="text-lg font-semibold">Ritesh Kumar</h3>
-          <p className="text-sm text-gray-400 mb-4">Full Stack Developer</p>
+          <h3 className="text-lg font-semibold">Deepali Verma</h3>
+          <p className="text-sm text-gray-400 mb-4">FrontEnd Developer</p>
 
           <div className="flex justify-center space-x-4 mb-6">
             <Tooltip text="Call">
@@ -61,19 +61,20 @@ const Contact = ({ button }) => {
 
           <ContactInfo
             label="Phone"
-            value="+91 8882304322"
+            value="+91 8305483524"
             onClick={handleCall}
           />
           <hr className="w-full border-gray-600 my-1" />
           <ContactInfo
             label="Email"
-            value="codeshorts007@gmail.com"
+            value="deepaliverma064@gmail.com"
             onClick={handleEmail}
           />
           <hr className="w-full border-gray-600 my-1" />
           <ContactInfo
             label="Website"
-            value="https://my-portfolio-rk.vercel.app"
+            // add protfolio link
+            value="" 
             onClick={handleShare}
           />
         </div>
