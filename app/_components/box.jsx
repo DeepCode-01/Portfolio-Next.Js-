@@ -10,7 +10,6 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import Card from "../_Projects/Card";
 import { Projects } from "../_Projects/Project";
-import { Client } from "../_Projects/Freelancing";
 import PopLoader from "./PopLoader";
 
 const ProjectDialog = ({
@@ -65,13 +64,7 @@ const ProjectDialog = ({
                       ))}
                     </div>
                   </TabsContent>
-                  <TabsContent value="freelancing">
-                    <div className="grid grid-cols-1 md:grid-cols-2 p-2 gap-5">
-                      {Client?.map((project, index) => (
-                        <Card key={index} {...project} />
-                      ))}
-                    </div>
-                  </TabsContent>
+                
                 </div>
               </Tabs>
             </div>

@@ -1,60 +1,50 @@
 export const Projects = [
     {
-      name: "Shop Smart",
-      logo: "/project/1st.png",
+      name: "Painting App",
+      logo: "/project/1th.png",
       description:
-        "A full-featured e-commerce application where users can browse products, add them to a cart, and make purchases.",
+        "A Frontend basic project where you can draw, choose color and tools. also you can save your drwaing as a image.",
       techStack: [
-        "Next.js",
-        "Prisma",
-        "Tailwind CSS",
-        "React",
-        "Redux Toolkit",
-        "TypeScript",
-        "Redis",
-        "Razorpay",
+       "html",
+       "css",
+       "JavaSript"
       ],
       imageSrc:
         "https://utfs.io/f/c3ad20d6-e114-4471-89d2-a9e150939b3a-p1iecd.jpg",
       videoSrc: "https://utfs.io/f/8515c08d-723b-4420-96c8-e8e8fe91f9de-136a.mp4",
-      demoLink: "https://shop-smart-lilac.vercel.app",
-      codeLink: "https://github.com/riteshk-007/Shop-Smart",
+      demoLink: "https://66f190ea22edb741f1ad7b4d--lighthearted-puffpuff-da0042.netlify.app/",
+      codeLink: "https://github.com/DeepCode-01/JavaScript-projects-/tree/main/A%20Drawing%20or%20Paint%20App",
     },
     {
-      name: "Control Panel X",
+      name: "Google Gemini Clone",
       logo: "/project/4th.png",
-      description: "A dashboard application for managing user data.",
+      description: "Google Gamini Clone to where you can search any thing.",
       techStack: [
-        "Next.js",
-        "Tailwind CSS",
         "React",
-        "Prisma",
-        "Razorpay",
-        "MongoDB",
+        "Tailwind CSS",
+        "vite"
+     
       ],
       imageSrc:
         "https://utfs.io/f/89dfa3a5-0c38-4253-b4b9-a26cadfeddb3-3od6zv.jpg",
       videoSrc: "https://utfs.io/f/434b6259-a32e-48f8-994b-be2bb57a5bef-15ew.mp4",
-      demoLink: "https://control-panel-x.vercel.app",
-      codeLink: "https://github.com/riteshk-007/ControlPanelX",
+      demoLink: "https://gemini-2-0-nine.vercel.app/",
+      codeLink: "https://github.com/DeepCode-01/Gemini-2.0",
     },
     {
-      name: "Blog Platform",
+      name: "Landing Page",
       logo: "nextjs.svg",
-      description: "A platform for creating and sharing blog posts.",
+      description: "This is a landing page of a ai company ",
       techStack: [
         "Next.js",
-        "Prisma",
-        "JWT",
-        "Cloudinary",
         "Tailwind CSS",
         "React",
       ],
       imageSrc:
         "https://utfs.io/f/40f390d2-f5ab-42b1-a42a-143c0e51de71-oy7t5s.jpg",
       videoSrc: "https://utfs.io/f/ffb641f4-eec1-4609-b89f-f0b5d2fc9dd9-165l.mp4",
-      demoLink: "https://blog-platform-five-hazel.vercel.app",
-      codeLink: "https://github.com/riteshk-007/Blog-Platform",
+      demoLink: "https://ravian-ai-landing-page-by-deepali.vercel.app/",
+      codeLink: "https://github.com/DeepCode-01/Ravian-Ai-Intern",
     },
     {
       name: "imagzen",
