@@ -29,7 +29,7 @@ export function getCurrentDate() {
     const lat = 23.1686
     const lon = 79.9339
     const apiKey = process.env.NEXT_PUBLIC_API_URL
-    const url = "https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric"
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${apiKey}&units=metric`
   
     try {
       const response = await fetch(url)

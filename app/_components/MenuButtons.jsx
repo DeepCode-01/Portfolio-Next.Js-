@@ -66,16 +66,6 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         href: "https://x.com/DeepV_01",
         className: "rounded-xl bg-white overflow-hidden"
       },
-      coffee: {
-        src: "/windows/coffee.png",
-        width: 60,
-        height: 60,
-        alt: "Coffee Logo",
-        label: "coffee",
-        href: "https://buymeacoffee.com/riteshk_007",
-        className:
-          "bg-gradient-to-t from-yellow-100 to-gray-200 p-2 rounded-xl shadow-xl w-14 h-14 flex items-center justify-center"
-      }
     }
     return configs[key]
   }
@@ -218,7 +208,6 @@ const MenuButtons = ({ platform, togglePlatform }) => {
       {renderButton(getButtonConfig("github"))}
       {renderButton(getButtonConfig("linkedin"))}
       {renderButton(getButtonConfig("x"))}
-      {renderButton(getButtonConfig("coffee"))}
       {renderPlatformToggleButton()}
     </div>
   )
