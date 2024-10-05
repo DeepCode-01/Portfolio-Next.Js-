@@ -45,13 +45,6 @@ const Card = ({ ...project }) => {
       <div className="w-full h-full p-2">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <Image
-              width={40}
-              height={40}
-              src={logo}
-              alt={name}
-              className="w-10 h-10 rounded-full object-contain overflow-hidden"
-            />
             <h1 className="text-xl font-bold">{name}</h1>
           </div>
           <div className="flex items-center gap-2">
