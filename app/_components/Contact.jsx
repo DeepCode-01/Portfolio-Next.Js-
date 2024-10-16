@@ -73,9 +73,9 @@ const Contact = ({ button }) => {
           <hr className="w-full border-gray-600 my-1" />
           <ContactInfo
             label="Website"
-            // src="https://portfolio-next-js-deepali.vercel.app/"
-            value="" 
-            onClick={handleShare}
+      
+            value="https://portfolio-next-js-deepali.vercel.app" 
+            onClick={handleWebsite}
           />
         </div>
       </DialogContent>

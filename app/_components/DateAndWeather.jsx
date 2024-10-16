@@ -83,7 +83,7 @@ export function getCurrentDate() {
   }
   
   export const handleWebsite = () => {
-    window.open("https://my-portfolio-rk.vercel.app", "_blank")
+    window.open("https://portfolio-next-js-deepali.vercel.app", "_blank")
   }
   
   export const handleCall = () => {

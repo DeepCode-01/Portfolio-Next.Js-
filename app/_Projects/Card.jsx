@@ -7,7 +7,6 @@ import Tooltip from "../_components/Tooltip"
 const Card = ({ ...project }) => {
   const {
     name,
-    logo,
     description,
     techStack,
     imageSrc,
