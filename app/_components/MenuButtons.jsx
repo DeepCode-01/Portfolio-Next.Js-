@@ -154,7 +154,7 @@ const MenuButtons = ({ platform, togglePlatform }) => {
         ${
           platform === PLATFORMS.WINDOWS || platform === PLATFORMS.MAC
             ? "left-10 grid-cols-2 gap-4"
-            : "grid-cols-4"
+            : "grid-cols-4 left-1/2 -translate-x-1/2 w-[90%] max-w-md"
         }
       `}
     >

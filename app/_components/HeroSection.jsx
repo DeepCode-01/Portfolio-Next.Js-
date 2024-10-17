@@ -77,7 +77,7 @@ const HeroSection = () => {
 
   return (
     <div
-      className="w-screen h-screen flex items-center justify-center relative"
+      className="w-screen h-screen flex items-center justify-center relative overflow-hidden"
       style={{
         backgroundImage:
           platform === "Windows"
@@ -88,7 +88,8 @@ const HeroSection = () => {
             ? "url('/iphone.jpg')"
             : "url('/android.jpg')",
         backgroundSize: "cover",
-        backgroundPosition: "center"
+        backgroundPosition: "center",
+        backgroundAttachment: "fixed"
       }}
     >
       <Weather platform={platform} />

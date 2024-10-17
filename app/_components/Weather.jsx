@@ -58,7 +58,7 @@ const Weather = ({ platform }) => {
         <div
           className={`${
             platform === "Android" || platform === "iPhone"
-              ? "absolute top-4 w-11/12  max-w-sm  mx-auto p-3 phone-glass border border-gray-700 shadow-2xl rounded-xl text-white"
+              ? "absolute top-4 w-11/12 max-w-sm mx-auto p-3 phone-glass border border-gray-700 shadow-2xl rounded-xl text-white z-10"
               : "hidden"
           } `}
         >
@@ -117,7 +117,7 @@ const Weather = ({ platform }) => {
         <div
           className={`${
             platform === "Android" || platform === "iPhone"
-              ? "absolute top-4 w-11/12  gap-3  max-w-sm  mx-auto p-3 phone-glass border border-gray-700 shadow-2xl rounded-xl text-white flex items-center justify-center flex-col"
+              ? "absolute top-4 w-11/12 gap-3 max-w-sm mx-auto p-3 phone-glass border border-gray-700 shadow-2xl rounded-xl text-white flex items-center justify-center flex-col z-10"
               : "hidden"
           } `}
         >
